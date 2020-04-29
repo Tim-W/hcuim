@@ -1,11 +1,11 @@
-package com.example;
+package nl.timw.hcuim;
 
 import net.runelite.client.config.Config;
 import net.runelite.client.config.ConfigGroup;
 import net.runelite.client.config.ConfigItem;
 
-@ConfigGroup("example")
-public interface ExampleConfig extends Config
+@ConfigGroup("hcuim")
+public interface HCUIMConfig extends Config
 {
 	@ConfigItem(
 		keyName = "greeting",
